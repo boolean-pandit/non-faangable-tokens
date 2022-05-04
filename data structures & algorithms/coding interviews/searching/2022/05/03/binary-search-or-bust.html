@@ -406,7 +406,7 @@ Result of searching for 92 in [1, 4, 9, 54, 100, 123] :         -1
 <h1 id="Naïve-Binary-Search-Problems">
 <a class="anchor" href="#Na%C3%AFve-Binary-Search-Problems" aria-hidden="true"><span class="octicon octicon-link"></span></a>Naïve Binary Search Problems<a class="anchor-link" href="#Na%C3%AFve-Binary-Search-Problems"> </a>
 </h1>
-<p>Here's a list of problems that can be solved using binary search. Anytime you see a problem statement which goes something like <em>"Given a sorted list.."</em> or <em>"Find the position of an element"</em>, think of using binary search. You can also consider <strong>sorting</strong> the input in case it is an unordered collection of items to reduce it to a binary search problem. Note that this list is by no means exhaustive, but is a good starting point to practice binary search:</p>
+<p>Here's a list of problems that can be solved using vanilla binary search (or slightly modifying it). Anytime you see a problem statement which goes something like <em>"Given a sorted list.."</em> or <em>"Find the position of an element"</em>, think of using binary search. You can also consider <strong>sorting</strong> the input in case it is an unordered collection of items to reduce it to a binary search problem. Note that this list is by no means exhaustive, but is a good starting point to practice binary search:</p>
 <ul>
 <li><a href="https://leetcode.com/problems/search-insert-position/">Search Insert Position</a></li>
 <li><a href="https://leetcode.com/problems/sqrtx/">Find the Square Root of x</a></li>
@@ -454,19 +454,6 @@ Result of searching for 92 in [1, 4, 9, 54, 100, 123] :         -1
     
     
 <div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">33</span><span class="p">,</span><span class="mi">100</span><span class="p">]</span>
-
-<span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Square root of </span><span class="si">{</span><span class="n">val</span><span class="si">}</span><span class="s2"> is: </span><span class="si">{</span><span class="n">find_square_root</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
 
 <div class="output_wrapper">
 <div class="output">
